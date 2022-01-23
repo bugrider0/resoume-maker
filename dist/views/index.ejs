@@ -7,20 +7,67 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/all.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Resoume</title>
+    <title>Resoume-Maker</title>
   </head>
   <body>
     <div class="container">
       <header class="header">
         <img class="me-img" src="/img/me.jpg" alt="user-img" />
         <p class="fullName">Hosein Najafi</p>
-        <p class="jobTitle">MERN/Node.js Web Developer</p>
+        <p class="jobTitle">MERN Stack Web Developer</p>
       </header>
-      <main class="main"></main>
-      <footer class="footer"></footer>
+      <article class="article">
+        <div>
+          <pre class="about-me">
+            <%= data.about %> 
+          </pre>
+      </article>
+      <main class="main">
+        <section class="left-side">
+
+          <div class="skill">
+            <% data.skills.forEach(s => { %>
+              <div class="skill-item"><%= s %></div>
+            <% }) %>
+          </div>
+
+          <div class="contact">
+            <div class="contact-item">
+              <div>Phone</div>
+              <div>09142514054</div>
+            </div>
+            <div class="contact-item">
+              <div>Address</div>
+              <div>East Azerbaijan, Iran</div>
+            </div>
+            <div class="contact-item">
+              <div>Email</div>
+              <div><a target="_blank" href="mailto:hsn0najafi@gmail.com">
+                hsn0najafi@gmail.com
+              </a></div>
+            </div class="contact-item">
+            <div class="contact-item">
+              <div>Github</div>
+              <div><a target="_blank" href="https://github.com/hsn8najafi">hsn8najafi</a></div>
+            </div>
+            <div class="contact-item">
+              <div>DOB</div>
+              <div>2004 - 1382</div>
+            </div>
+          </div>
+        </section>
+        <section class="right-side">
+          <div class="projects">
+            <%- include ("./includes/timeLine.ejs", {timeLine: 'projects'}) %>
+          </div>
+          <div class="experience">
+            <%- include ("./includes/timeLine.ejs", {timeLine: 'experience'}) %>
+          </div>
+        </section>
+      </main> 
     </div>
   </body>
-  <script>
+  <!-- <script>
     window.print();
-  </script>
+  </script> -->
 </html>

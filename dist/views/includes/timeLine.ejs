@@ -1,0 +1,31 @@
+<% if (timeLine === "experience") { %>
+<!-- ----------------------------- -->
+<% data.experience.forEach(e => { %>
+<!-- --------------------------- -->
+<div class="timeLine-container">
+  <div class="circle"></div>
+  <div><%= e.title %></div>
+  <div><%= e.type %></div>
+  <div><%= e.start %></div>
+  <div><%= e.end %></div>
+</div>
+<!---->
+<% }) %>
+<!-- ----- -->
+<% } else { %>
+<!-- ------------------------- -->
+<% data.projects.forEach(p => { %>
+<!-- ------------------------- -->
+<a href="<%= p.link %>">
+  <div class="timeLine-container">
+    <div class="circle"></div>
+    <div><%= p.title %></div>
+    <div><%= p.desc %></div>
+    <div><%= p.start %></div>
+    <div><%= p.end %></div>
+  </div>
+</a>
+<!---->
+<% }) %>
+<!---->
+<% } %>
