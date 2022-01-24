@@ -1,6 +1,6 @@
 {
   "fullName": "Hosein Najafi",
-  "jobTitle": "MERN Stack Web Developer",
+  "jobTitle": "MERN/Node.js Stack Web Developer",
   "about": "\nSelf-Taught JavaScript Web Developer.\nHighly Sociable, a Good Team Player, with Good Communication Skills.\nI Always Look at the Myself as a Beginner and Try to Learn New Technologies.\nVery Interested in Seeing and Experiencing new Environments and Technologies.\nFlexible and Adaptable to any Environment and Easily Assimilate any new Technology.",
   "skills": [
     "JavaScript",
@@ -10,17 +10,16 @@
     "Socket.IO",
     "WebRTC",
     "PostgreSQL",
+    "Nest.js",
     "MongoDB(Mongoose ODM)",
-    "Next.js",
+    "prisma",
     "MySQL(Sequelize ORM)",
     "TypeORM",
     "Redis",
     "Git",
-    "WebPack",
     "KISS",
     "SOLID",
     "DRY",
-    "TDD",
     "RESTFull API",
     "GraphQL",
     "React.js",
@@ -33,7 +32,7 @@
   "experience": [
     {
       "title": "NodeJs Developer - RESTFull API",
-      "type": "Freelancers Team",
+      "type": "Freelancer Team",
       "start": "Apr2020",
       "end": "Dec2021"
     }
@@ -43,13 +42,6 @@
       "link": "https://github.com/hsn8najafi/weblog",
       "title": "weblog",
       "desc": "Users Can Register, CRUD and Share Posts",
-      "start": "--",
-      "end": "--"
-    },
-    {
-      "link": "https://github.com/hsn8najafi/samsung-notes",
-      "title": "samsung-notes (Android 8.0.0)",
-      "desc": "Memo App Like Samsung Notes",
       "start": "--",
       "end": "--"
     },
@@ -64,6 +56,13 @@
       "link": "https://github.com/hsn8najafi/video-call-io",
       "title": "video-call-io",
       "desc": "Live Video Call Using WebRTC and socket.IO",
+      "start": "--",
+      "end": "--"
+    },
+    {
+      "link": "https://github.com/hsn8najafi/samsung-notes",
+      "title": "samsung-notes (Android 8.0.0)",
+      "desc": "Memo App Like Samsung Notes",
       "start": "--",
       "end": "--"
     }
