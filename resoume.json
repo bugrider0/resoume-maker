@@ -1,6 +1,6 @@
 {
   "fullName": "Hosein Najafi",
-  "jobTitle": "MERN/Node.js Web Developer",
+  "jobTitle": "MERN Web Developer",
   "about": "\nSelf-Taught JavaScript Web Developer.\nHighly Sociable, a Good Team Player, with Good Communication Skills.\nI Always Look at the Myself as a Beginner and Try to Learn New Technologies.\nVery Interested in Seeing and Experiencing new Environments and Technologies.\nFlexible and Adaptable to any Environment and Easily Assimilate any new Technology.",
   "skills": [
     "JavaScript",
@@ -11,6 +11,7 @@
     "WebRTC",
     "PostgreSQL",
     "MongoDB(Mongoose ODM)",
+    "Next.js",
     "MySQL(Sequelize ORM)",
     "TypeORM",
     "Redis",
@@ -46,6 +47,13 @@
       "end": "--"
     },
     {
+      "link": "https://github.com/hsn8najafi/samsung-notes",
+      "title": "samsung-notes (Android 8.0.0)",
+      "desc": "Memo App Like Samsung Notes",
+      "start": "--",
+      "end": "--"
+    },
+    {
       "link": "https://github.com/hsn8najafi/chat-io",
       "title": "chat-io",
       "desc": "RealTime Chat App Using socket.IO",
@@ -56,13 +64,6 @@
       "link": "https://github.com/hsn8najafi/video-call-io",
       "title": "video-call-io",
       "desc": "Live Video Call Using WebRTC and socket.IO",
-      "start": "--",
-      "end": "--"
-    },
-    {
-      "link": "https://github.com/hsn8najafi/samsung-notes",
-      "title": "samsung-notes (Android 8.0.0)",
-      "desc": "Memo App Like Samsung Notes",
       "start": "--",
       "end": "--"
     }
