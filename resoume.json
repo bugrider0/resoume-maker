@@ -9,9 +9,9 @@
     "Express.js",
     "Socket.IO",
     "WebRTC",
+    "PostgreSQL",
     "MongoDB(Mongoose ODM)",
     "MySQL(Sequelize ORM)",
-    "PostgreSQL",
     "TypeORM",
     "Redis",
     "Git",
@@ -24,10 +24,10 @@
     "GraphQL",
     "React.js",
     "Context",
+    "NGINX",
     "Sass",
     "Gnu/Linux",
-    "Docker",
-    "NGINX"
+    "Docker"
   ],
   "experience": [
     {
