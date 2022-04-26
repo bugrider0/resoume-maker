@@ -1,7 +1,5 @@
-@import "includes/variables";
-@import "includes/mixins";
-
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import 'includes/variables';
+@import 'includes/mixins';
 
 $shadow: 0 0 7px #bebebe;
 
@@ -12,7 +10,7 @@ body {
     height: 1123px;
     margin: 0 auto;
     border: 1px solid white;
-    background-image: url("/img/bg.jpg");
+    background-image: url('/img/bg.jpg');
     background-position: 0 -45px;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -30,22 +28,25 @@ body {
         width: 120px;
         height: 120px;
         border-radius: 50%;
+        border: 1px solid black;
+        // padding: 1px;
         position: absolute;
         top: -65px;
         box-shadow: 0 0 2px #000;
+        background-color: white;
       }
       .fullName {
-        font-size: 50px;
-        font-family: "Bebas Neue", cursive;
+        font-size: 30px;
+        font-family: SF Pro Text;
         margin-top: 60px;
-        letter-spacing: 3px;
-        font-weight: bolder;
+        // letter-spacing: 1px;
       }
       .jobTitle {
         background-color: $blue;
         padding: 5px;
         color: white;
         border-radius: $radius-2;
+        font-size: 20px;
         margin-bottom: 20px;
       }
     }
@@ -53,7 +54,7 @@ body {
     // About Me
     .article {
       width: 95%;
-      margin: 20px auto 20px auto;
+      margin: 15px auto 15px auto;
       box-shadow: $shadow;
       background-color: #fff;
       border-radius: $radius-2;
@@ -129,6 +130,7 @@ body {
 
 .projects {
   width: 100%;
+  margin-top: -18px;
 }
 
 .experience {
@@ -137,7 +139,7 @@ body {
 
 .timeLine-container {
   width: 100%;
-  margin: 17.5px 0;
+  margin: 24px 0;
   position: relative;
   border-left: 2px solid $blue;
   @include flexCenter(column, center, start);
@@ -162,7 +164,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: $orange;
+  background-color: #000000;
   top: 0;
   left: -6px;
   position: absolute;

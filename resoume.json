@@ -1,70 +1,46 @@
 {
   "fullName": "Hosein Najafi",
-  "jobTitle": "MERN/Node.js Stack Web Developer",
-  "about": "\nSelf-Taught JavaScript Web Developer.\nHighly Sociable, a Good Team Player, with Good Communication Skills.\nI Always Look at the Myself as a Beginner and Try to Learn New Technologies.\nVery Interested in Seeing and Experiencing new Environments and Technologies.\nFlexible and Adaptable to any Environment and Easily Assimilate any new Technology.",
-  "skills": [
-    "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "Express.js",
-    "Socket.IO",
-    "WebRTC",
-    "PostgreSQL",
-    "Nest.js",
-    "MongoDB(Mongoose ODM)",
-    "prisma",
-    "MySQL(Sequelize ORM)",
-    "TypeORM",
-    "Redis",
-    "Git",
-    "KISS",
-    "SOLID",
-    "DRY",
-    "RESTFull API",
-    "GraphQL",
-    "React.js",
-    "Context",
-    "NGINX",
-    "Sass",
-    "Gnu/Linux",
-    "Docker"
-  ],
+  "jobTitle": "Node.js Backend Developer",
+  "about": "\nSelf-Taught JavaScript Web Developer\nHighly Sociable, a Good Team Player, with Good Communication Skills\nI Always Look at the Myself as a Beginner and Try to Learn New Technologies\nVery Interested in Seeing and Experiencing new Environments and Technologies\nFlexible and Adaptable to any Environment and Easily Assimilate any new Technology\nRecognition/Respect for People's Diversity, I am thirsty for learning and growth",
+  "skills": ["Node.js", "Express.js", "TypeScript", "JavaScript", "MongoDB(Mongoose)", "PostgreSQL(TypeORM)", "Redis", "Socket.IO", "WebRTC", "KISS", "DRY", "CI/CD", "RESTfulAPI", "GraphQL", "ES6+", "TDD", "AWS(SES)", "RabbitMQ", "Jest/SuperTest", "Monolithic/MicroService", "Agile/Scrum", "SOA", "MVC", "NGINX", "CleanCode", "AWS", "Gnu/Linux", "Docker", "Basics Of Front-end Development"],
   "experience": [
     {
-      "title": "NodeJs Developer - RESTFull API",
-      "type": "Freelancer Team",
-      "start": "Apr2020",
-      "end": "Dec2021"
+      "title": "Node.js Backend Developer",
+      "type": "Ideall Technology - FullTime - Turkey/Bursa",
+      "start": "Jan 2022 ~ Mar 2022",
+      "end": "Freelance projects on freelancer.com"
+    },
+    {
+      "title": "Node.js Backend Developer",
+      "type": "Freelancer.com - Freelance - Iran/Tabriz",
+      "start": "Feb 2020 ~ Dec 2021",
+      "end": "Working on Agile team based on Scrum"
     }
   ],
   "projects": [
     {
-      "link": "https://github.com/hsn8najafi/weblog",
-      "title": "weblog",
-      "desc": "Users Can Register, CRUD and Share Posts",
-      "start": "--",
-      "end": "--"
+      "link": "https://github.com/hsn8najafi/node-microservice",
+      "title": "Node.js Microservice Architecture",
+      "desc": "MicroService, TS, Proxy, MongoDB, NGINX",
+      "start": "github.com/hsn8najafi/node-microservice"
     },
     {
-      "link": "https://github.com/hsn8najafi/chat-io",
-      "title": "chat-io",
-      "desc": "RealTime Chat App Using socket.IO",
-      "start": "--",
-      "end": "--"
+      "link": "https://github.com/hsn8najafi/node-mvc-starter",
+      "title": "Node.js Monolithic Architecture",
+      "desc": "Monolithic, TS, RBAC, MultiLingual",
+      "start": "github.com/hsn8najafi/node-mvc-starter"
     },
     {
-      "link": "https://github.com/hsn8najafi/video-call-io",
-      "title": "video-call-io",
-      "desc": "Live Video Call Using WebRTC and socket.IO",
-      "start": "--",
-      "end": "--"
+      "link": "https://github.com/hsn8najafi/weblog-node",
+      "title": "MVC Weblog",
+      "desc": "Weblog, Mongo, EJS, Auth, passport.js",
+      "start": "github.com/hsn8najafi/weblog-node"
     },
     {
-      "link": "https://github.com/hsn8najafi/samsung-notes",
-      "title": "samsung-notes (Android 8.0.0)",
-      "desc": "Memo App Like Samsung Notes",
-      "start": "--",
-      "end": "--"
+      "link": "https://github.com/hsn8najafi/socket-chat",
+      "title": "Chat App",
+      "desc": "RealTime, socket.io, Express.js",
+      "start": "github.com/hsn8najafi/socket-chat"
     }
   ]
 }
