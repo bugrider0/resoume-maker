@@ -2,19 +2,19 @@
   "fullName": "Hosein Najafi",
   "jobTitle": "Node.js Backend Developer",
   "about": "\nSelf-Taught JavaScript Web Developer\nHighly Sociable, a Good Team Player, with Good Communication Skills\nI Always Look at the Myself as a Beginner and Try to Learn New Technologies\nVery Interested in Seeing and Experiencing new Environments and Technologies\nFlexible and Adaptable to any Environment and Easily Assimilate any new Technology\nRecognition/Respect for People's Diversity, I am thirsty for learning and growth",
-  "skills": ["Node.js", "Express.js", "TypeScript", "JavaScript", "MongoDB(Mongoose)", "PostgreSQL(TypeORM)", "Redis", "Socket.IO", "WebRTC", "KISS", "DRY", "CI/CD", "RESTfulAPI", "GraphQL", "ES6+", "TDD", "AWS(SES)", "RabbitMQ", "Jest/SuperTest", "Monolithic/MicroService", "Agile/Scrum", "SOA", "MVC", "NGINX", "CleanCode", "AWS", "Gnu/Linux", "Docker", "Basics Of Front-end Development"],
+  "skills": ["Node.js", "Express.js", "TypeScript", "JavaScript", "MongoDB(Mongoose)", "PostgreSQL(TypeORM)", "Redis", "Socket.IO", "WebRTC", "KISS", "DRY", "CI/CD", "RESTfulAPI", "GraphQL", "ES6+", "TDD", "RabbitMQ", "GIT", "Jest/SuperTest", "Agile/Scrum", "Monolithic/MicroService", "SOA", "MVC", "NGINX", "CleanCode", "AWS", "GNU/Linux", "OOP", "SOLID", "Docker", "Basics Of Front-end Development"],
   "experience": [
     {
       "title": "Node.js Backend Developer",
       "type": "Ideall Technology - FullTime - Turkey/Bursa",
       "start": "Jan 2022 ~ Mar 2022",
-      "end": "Freelance projects on freelancer.com"
+      "end": "Working on Agile team based on Scrum"
     },
     {
       "title": "Node.js Backend Developer",
       "type": "Freelancer.com - Freelance - Iran/Tabriz",
       "start": "Feb 2020 ~ Dec 2021",
-      "end": "Working on Agile team based on Scrum"
+      "end": "Freelance projects on freelancer.com"
     }
   ],
   "projects": [
